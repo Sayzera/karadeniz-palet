@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/lazy";
 import { Button } from "@/components/ui/button";
 import { SlCallOut } from "react-icons/sl";
 
@@ -48,6 +48,7 @@ export default function Banner({ data }: Props) {
           <ReactPlayer
             url={video}
             playing
+            
             loop
             muted
             width="100%"
