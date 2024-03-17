@@ -62,12 +62,13 @@ const Navbar: React.FC = ({location}:{
               <div className="flex h-16 items-center justify-between">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                  <GatsbyImage
+                 <Link to="/">
+                 <GatsbyImage
                     image={getImage(_data.logo.asset) as any}
                     className="h-10 w-10"
                     alt="Karadeniz Palet"
-                    placeholder="blurred"
                   />
+                  </Link>
                   </div>
                   <div className="hidden md:block">
                     <div className="ml-10 flex items-baseline space-x-4">

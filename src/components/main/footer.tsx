@@ -239,7 +239,7 @@ export default function Footer({}: Props) {
           </footer>
         </div>
       </div>
-      <div className="bg-black/5 p-6 text-center">
+      <div className="bg-black/5 p-6 text-center text-sm ">
         <span>© 2024 Tüm Hakları Saklıdır. </span>
         <a className="font-semibold" href="https://linkedin.com/in/sezer-bölük-927307155">
          Powered by Sezer Bölük
