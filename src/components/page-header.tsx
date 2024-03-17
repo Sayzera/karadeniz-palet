@@ -13,7 +13,7 @@ export default function PageHeader({
       backgroundColor : "rgb(244, 246, 248)"
     }}>
       <div className="mx-auto max-w-7xl px-12">
-        <div>
+        <div className="w-full">
           <h1 className="text-2xl font-bold text-default">Karadeniz Palet</h1>
           <div className="flex space-x-4 mt-2 items-center">
           <Link to="/" className="text-default text-md font-thin hover:underline">Anasayfa</Link>
@@ -24,7 +24,7 @@ export default function PageHeader({
               borderRadius : "50%"
            }}
           ></span>
-          <span className=" text-md font-thin text-secondary">{title}</span>
+          <span className="text-sm md:text-md font-thin text-secondary">{title}</span>
           </div>
         </div>
       </div>
