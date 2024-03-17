@@ -31,10 +31,10 @@ export default function StilHaveQuestion({ data }: Props) {
     >
       <div>
         <main className="mt-0 md:mt-15">
-          <div className="mx-auto max-w-7xl py-6 px-0 md:px-12">
+          <div className="mx-auto max-w-7xl py-6 px-4 md:px-12">
             {/* Card */}
             <div className="border border-dashed rounded-lg min-h-[300px] flex flex-col justify-center items-center">
-              <div className="text-3xl font-bold text-center ">
+              <div className="text-2xl md:text-3xl font-bold text-center ">
                {data.hala_sorulariniz_mi_var.title}
               </div>
               <p className="mt-8 text-sm text-secondary text-center">

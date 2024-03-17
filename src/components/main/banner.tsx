@@ -66,7 +66,7 @@ export default function Banner({ data }: Props) {
                     transition={{ duration: 2 }}
                   >
                     <div className="">
-                      <h1 className="text-xl leading-9 md:text-6xl font-bold md:leading-[4.25rem] text-white text-center md:text-start">
+                      <h1 className="text-xl leading-9 md:text-6xl font-bold md:leading-[4.25rem] text-white  md:text-start px-10 md:px-0">
                         {data.home_banner_slogan.title}{" "}
                         <span className="!text-primary">
                           {data.home_banner_slogan.last_title}
@@ -76,7 +76,7 @@ export default function Banner({ data }: Props) {
                   </motion.div>
 
                   <div className="flex flex-col  px-10 md:px-0">
-                    <div className=" mt-8 text-white">
+                    <div className="mt-4 md:mt-8 text-white">
                       <p>{data.banner_description}</p>
                     </div>
 
@@ -96,17 +96,17 @@ export default function Banner({ data }: Props) {
                             window.location.href = `tel:${data.button_phone}`;
                           }}
                         >
-                          <span className=" text-sm">Fiyat Bilgisi Al</span>
+                          <span className="text-sm">Fiyat Bilgisi Al</span>
                           <SlCallOut className="ml-2 w-4 h-4 text-primary" />
                         </Button>
                       </motion.button>
                     </div>
 
-                    <div className="mt-8 text-white">
+                    <div className="mt-4 md:mt-8 text-white">
                       <span className="text-inherit text-xl text-primary">
                         Paletler
                       </span>
-                      <ul className="flex space-x-4 mt-4">
+                      <ul className="flex space-x-4 mt-1">
                         {data?.product_titles?.map((item, index) => (
                           <li key={index} className="text-white text:sm md:text-lg">
                             {item}

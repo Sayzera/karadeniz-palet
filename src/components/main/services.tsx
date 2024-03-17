@@ -76,7 +76,7 @@ export default function Services({data}: Props) {
                 </div>
               </div>
             </div>
-            <div className="px-8 md:px-0 mb-10">
+            <div className="px-8 md:px-0 mb-0 md:mb-10">
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, Autoplay]}

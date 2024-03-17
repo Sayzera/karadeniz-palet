@@ -12,7 +12,7 @@ type Props = {
 export default function ServicesItem({ data }: Props) {
   return (
     <div>
-      <div className="mx-auto mt-11  transform overflow-hidden rounded-lg bg-white  shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+      <div className="mx-auto mt-11 transform overflow-hidden rounded-lg bg-white  shadow-md duration-300 hover:scale-105 hover:shadow-lg">
         <div className="md:h-58">
         <GatsbyImage
               image={getImage(data.img as any) as any}
