@@ -75,7 +75,7 @@ export default function Banner({ data }: Props) {
                   </motion.div>
 
                   <div className="flex flex-col  px-10 md:px-0">
-                    <div className=" mt-12 text-white">
+                    <div className=" mt-8 text-white">
                       <p>{data.banner_description}</p>
                     </div>
 
@@ -101,13 +101,13 @@ export default function Banner({ data }: Props) {
                       </motion.button>
                     </div>
 
-                    <div className="mt-10 text-white">
+                    <div className="mt-8 text-white">
                       <span className="text-inherit text-xl text-primary">
                         Paletler
                       </span>
                       <ul className="flex space-x-4 mt-4">
                         {data?.product_titles?.map((item, index) => (
-                          <li key={index} className="text-white text-lg">
+                          <li key={index} className="text-white text:sm md:text-lg">
                             {item}
                           </li>
                         ))}

@@ -96,7 +96,7 @@ export default function About({}: Props) {
             }}
             className="relative"
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 md:space-x-10 md:pt-[80px] px-[24px] items-center space-y-10 md:space-y-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:space-x-10  px-[24px] items-center space-y-10 md:space-y-0">
               <div>
                   <GatsbyImage
                     image={getImage(data.images.asset) as any}
