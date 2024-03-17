@@ -61,7 +61,7 @@ export default function Contact({}: Props) {
             <div>
               <GatsbyImage
               image={getImage(data.contact_image.asset) as any}
-              className="w-[80%] hidden md:block"
+              className="w-[80%] sm:hidden md:block"
               alt="Karadeniz Palet"
               />
 

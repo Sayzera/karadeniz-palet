@@ -54,8 +54,8 @@ export default function Footer({}: Props) {
       <div className="mx-auto max-w-7xl py-6 px-0 md:px-12">
         <div>
           {/*Footer container --> */}
-          <footer className=" text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
-            <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+          <footer className=" text-center text-surface/75  lg:text-left">
+            <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 lg:justify-between">
               <div className="me-12 hidden lg:block">
                 <span>Sosyal ağlarda bizimle bağlantı kurun:</span>
               </div>

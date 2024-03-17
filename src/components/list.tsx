@@ -38,13 +38,13 @@ export default function InteractiveList({
         <span className="text-xl font-bold">Ürün Özellikleri</span>
       </div>
       <div className="relative overflow-x-auto">
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <table className="w-full text-sm text-left text-gray-500 ">
           <tbody>
             {properties?.map((item, index) => {
               return (
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr className="bg-white border-b ">
                   <td
-                    className="px-2 py-4 font-medium text-gray-900  dark:text-white"
+                    className="px-2 py-4 font-medium text-gray-900 "
                     style={{
                       maxWidth: "100px",
                     }}

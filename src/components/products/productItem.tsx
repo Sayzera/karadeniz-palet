@@ -14,7 +14,7 @@ type Props = {
 export default function ProductItem({ data }: Props) {
   return (
     <div>
-      <div className="mx-auto mt-11  transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+      <div className="mx-auto mt-11  transform overflow-hidden rounded-lg bg-white  shadow-md duration-300 hover:scale-105 hover:shadow-lg">
         <div className="md:h-58 relative">
         <GatsbyImage
                       image={getImage(data.img) as any}
@@ -29,10 +29,10 @@ export default function ProductItem({ data }: Props) {
        
         </div>
         <div className="p-4 min-h-[150px]  overflow-hidden ">
-          <h2 className="mb-2 text-lg font-medium dark:text-white text-primary">
+          <h2 className="mb-2 text-lg font-medium text-primary">
             {data.name}
           </h2>
-          <p className="mb-2 text-sm dark:text-gray-300 text-secondary">
+          <p className="mb-2 text-sm  text-secondary">
             {data.description}
           </p>
         </div>
